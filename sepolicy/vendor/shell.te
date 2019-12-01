@@ -7,3 +7,8 @@ allow shell boottime_prop:file { getattr open read };
 allow shell bpf_progs_loaded_prop:file { getattr open read };
 allow shell cnd_vendor_prop:file { getattr open read };
 allow shell ctl_LKCore_prop:file { getattr open read };
+allow shell ctl_adbd_prop:file { getattr open read };
+allow shell ctl_bootanim_prop:file { getattr open read };
+allow shell ctl_console_prop:file { getattr open read };
+allow shell ctl_default_prop:file { getattr open read };
+allow shell ctl_fm_prop:file { getattr open read };
