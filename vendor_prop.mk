@@ -81,6 +81,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 		ro.surface_flinger.set_touch_timer_ms=5000 \
 		ro.surface_flinger.set_idle_timer_ms=9000
 
+
 # Miracast
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.enable_vds=1 \
@@ -102,7 +103,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     log.tag.synaFpHal=W \
     log.tag.SynapticsLIB=W \
     log.tag.synaTransport=W \
-    persist.vendor.fp.gesture=0
+    persist.vendor.fp.gesture=1
 
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \
